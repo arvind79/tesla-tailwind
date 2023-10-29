@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gotham Book";
+  src: url(../public/GothamBook.ttf);
+}
+
+
+@layer base {
+  html {
+  font-family: 'Figtree', sans-serif;
+  font-family: "Gotham Book", sans-serif;
+  }
+}
+
+@layer components {
+  .footer-link {
+    @apply cursor-pointer font-semibold
+  }
+}
